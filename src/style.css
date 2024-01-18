@@ -161,6 +161,25 @@ a {
   margin: 25px;
 }
 
+.work-container img {
+  width: 460px;
+  height: 200px;
+  border-radius: 20px;
+
+}
+
+.work-content {
+  background: rgb(243, 238, 238);
+  margin: 10px;
+  padding: 20px;
+}
+
+.work-content h2, .work-content p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+
 @media screen and (max-width: 576px) {
   .col p {
     text-align: center;
