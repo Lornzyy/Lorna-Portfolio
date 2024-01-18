@@ -17,6 +17,7 @@ h6 {
 p {
   font-family: "Poppins";
   font-weight: normal;
+  color: #272142;
 }
 
 .hero {
@@ -91,7 +92,7 @@ a {
   line-height: 30px;
 }
 
-.btn{
+.btn {
   border-radius: 4px;
   border: 1px solid #6c63ff;
   padding: 15px 25px;
@@ -100,17 +101,58 @@ a {
   color: #6c63ff;
   font-size: 16px;
 }
+
 .text-descripiton {
-    margin-top: 20px;
-    padding: 15px;
-    line-height: 30px;
+  margin-top: 20px;
+  padding: 15px;
+  line-height: 30px;
 }
 
 .btn {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
-@media screen and (max-width: 576px){
+/* about page */
+
+.content-container {
+  padding: 100px 20px;
+}
+
+.content {
+  margin-left: 30px;
+}
+
+.content-container h1 {
+  font-size: 50px;
+  line-height: normal;
+}
+
+.content-container h2 {
+  font-size: 18px;
+  color: #272142;
+}
+
+.content p {
+  color: rgba(39, 33, 66, 0.7);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: justify;
+  margin: 20px 0;
+}
+
+.work-enquiry {
+  background: #f9f7fe;
+}
+
+.work-enquiry h2,
+.work-enquiry p {
+  text-align: center;
+  margin: 25px;
+}
+
+@media screen and (max-width: 576px) {
   .col p {
     text-align: center;
     line-height: 1.5;
@@ -119,7 +161,7 @@ a {
   .btn {
     display: block;
     margin: 10px auto;
-    width: 100%;
+    width: 90%;
   }
   h1 {
     font-size: 44px;
@@ -134,4 +176,17 @@ a {
     padding: 80px 20px;
   }
 
+  .content-container {
+    padding: 0;
+  }
+
+  .content-container img {
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+  }
+  .work-enquiry {
+    padding: 0;
+  }
 }
