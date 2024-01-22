@@ -128,12 +128,14 @@ a {
   margin-left: 30px;
 }
 
-.content-container h1 {
+.content-container h1,
+.contact-container h1 {
   font-size: 50px;
   line-height: normal;
 }
 
-.content-container h2 {
+.content-container h2,
+.contact-container h2 {
   font-size: 18px;
   color: #272142;
 }
@@ -181,6 +183,10 @@ a {
   color: #272142;
 }
 
+.socials a {
+  color: #272142;
+}
+
 .socials a:hover {
   color: #6c63ff;
   transition: all 100ms ease-in;
@@ -209,6 +215,12 @@ a {
 .nav ul li a:hover,
 .nav ul li a.active {
   color: #6c63ff;
+}
+
+.contact-container {
+  min-height: 100vh;
+  line-height: 2;
+  padding: 100px 20px;
 }
 
 @media screen and (max-width: 576px) {
