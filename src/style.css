@@ -215,9 +215,8 @@ a {
 }
 
 .contact-container {
-  min-height: 100vh;
   line-height: 2;
-  padding: 100px 20px;
+  padding: 50px 20px;
 }
 
 .socials i {
