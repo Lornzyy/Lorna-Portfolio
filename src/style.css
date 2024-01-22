@@ -219,9 +219,20 @@ a {
   padding: 50px 20px;
 }
 
-.socials i {
-  width: 50px;
-  height: 40px;
+
+footer .socials a {
+  margin: 0 20px;
+  color: #6c63ff;
+  background: #f9f7fe;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .socials a:hover {
+  color: #f9f7fe;
+  background: #6c63ff;
 }
 
 @media screen and (max-width: 576px) {
