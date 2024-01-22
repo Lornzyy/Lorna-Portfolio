@@ -163,13 +163,10 @@ a {
   margin: 25px;
 }
 
-.work-container {
-  padding: 0px 30px;
-}
-
 .work-container img {
   width: 400px;
   height: 200px;
+  display: block;
   border-radius: 20px;
 }
 
