@@ -220,6 +220,11 @@ a {
   padding: 100px 20px;
 }
 
+.socials i {
+  width: 50px;
+  height: 40px;
+}
+
 @media screen and (max-width: 576px) {
   .col p {
     text-align: center;
