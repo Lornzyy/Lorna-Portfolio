@@ -121,7 +121,7 @@ a {
 /* about page */
 
 .content-container {
-  padding: 100px 20px;
+  padding: 50px 20px;
 }
 
 .content {
@@ -219,7 +219,6 @@ a {
   padding: 50px 20px;
 }
 
-
 footer .socials a {
   margin: 0 20px;
   color: #6c63ff;
@@ -230,11 +229,19 @@ footer .socials a {
   transition: all 100ms ease-in-out;
 }
 
-footer .socials a:hover {
+footer .socials a:hover,
+.btn:hover {
   color: #f9f7fe;
   background: #6c63ff;
 }
 
+.btn a {
+  color: #272142;
+}
+
+.btn a:hover {
+  color: #f9f7fe;
+}
 @media screen and (max-width: 576px) {
   .col p {
     text-align: center;
