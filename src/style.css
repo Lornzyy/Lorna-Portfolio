@@ -302,7 +302,7 @@ footer .socials a:hover,
     border-radius: 7px;
   }
 
-  .nav {
-    padding: 0;
+  .nav ul li{
+    margin-left: 5px;
   }
 }
