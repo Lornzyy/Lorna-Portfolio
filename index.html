@@ -50,7 +50,7 @@
       <nav class="nav d-flex justify-content-between align-items-center p-3">
         <div>
           <h2 class="d-none d-md-block">Lorna Mungai</h2>
-          <h2 class="d-block d-md-none fs-6">Lorna Mungai</h2>
+          <p class="d-block d-md-none text-center mt-3">Lorna Mungai</p>
         </div>
         <div>
           <ul>
@@ -81,63 +81,10 @@
     </div>
 
     <div class="projects">
-      <h4 class="text-center text-bold lh-lg text-warning m-3">
-        Featured projects with my best projects shown
-      </h4>
+      <h2 class="text-center text-bold lh-lg text-warning">
+        Featured projects
+      </h2>
       <div class="container">
-        <div class="row mt-4 p-2">
-          <div class="col d-none d-lg-block">
-            <img
-              src="./images/display.png"
-              alt="password generator web app snapshot"
-              class="img-fluid"
-            />
-          </div>
-          <div class="col text-descripiton">
-            <h2 class="mt-2">Password Generator</h2>
-            <p>
-              A password gerator that generates a password of 7 charcters
-              including numbers, letters, and characters to ensure digital
-              safety of gadgets!
-            </p>
-            <button type="submit" class="btn">
-              <a
-                rel="noopener"
-                href="https://lornzyy.github.io/password-generator/"
-                title="Learn More"
-                target="_blank"
-                >Learn More</a>
-            </button>
-          </div>
-        </div>
-
-        <div class="row mt-5 p-3">
-          <div class="col text-descripiton">
-            <h2 class="mt-2">Traditional Medicinal System</h2>
-            <p>
-              Traditional medicinal herbs system that displays wholesome
-              practices to support mental, physical and spiritual wellness!
-              Checkout the yoga app to engage more with the traditional
-              medicinal herbs in Kenya and lead a relaxing life.
-            </p>
-            <button class="btn" type="submit">
-            <a
-              href="https://traditional-medicinal-herbs-system-github-io.vercel.app/"
-              title="Learn More"
-              >Learn More</a
-            >
-            </button>
-          </div>
-
-          <div class="col d-none d-lg-block">
-            <img
-              src="./images/tmh-screenshot.png"
-              alt="Traditional medicinal herbs system snapshot"
-              class="img-fluid rounded h-100"
-            />
-          </div>
-        </div>
-
         <div class="row mt-5 p-3">
           <div class="col d-none d-lg-block">
             <img
@@ -155,25 +102,90 @@
               Additionally, it shows the forecast for the area for the next five
               days.
             </p>
-            <button class="btn" type="submit" />
-            <a
-              rel="noopener"
-              href="https://hali-ya-anga-app.netlify.app/"
-              target="_blank"
-              title="Learn More"
-              >Learn More</a
-            ></button>
+            <button class="btn" type="submit">
+              <a
+                rel="noopener"
+                href="https://hali-ya-anga-app.netlify.app/"
+                target="_blank"
+                title="Learn More"
+                >Learn More</a
+              >
+            </button>
           </div>
         </div>
       </div>
+
+      <hr class="d-block d-md-none w-60 m-3" />
+
+      <div class="row mt-5 p-3">
+        <div class="col text-descripiton">
+          <h2 class="mt-2">Traditional Medicinal System</h2>
+          <p>
+            Traditional medicinal herbs system that displays wholesome practices
+            to support mental, physical and spiritual wellness! Checkout the
+            yoga app to engage more with the traditional medicinal herbs in
+            Kenya and lead a relaxing life.
+          </p>
+          <button class="btn" type="submit">
+            <a
+              href="https://traditional-medicinal-herbs-system-github-io.vercel.app/"
+              title="Learn More"
+              >Learn More</a
+            >
+          </button>
+        </div>
+
+        <div class="col d-none d-lg-block">
+          <img
+            src="./images/tmh-screenshot.png"
+            alt="Traditional medicinal herbs system snapshot"
+            class="img-fluid rounded h-100"
+          />
+        </div>
+      </div>
+
+      <hr class="d-sm-block d-md-none w-60 m-3" />
+      <div class="row mt-4 p-3">
+        <div class="col d-none d-lg-block">
+          <img
+            src="./images/display.png"
+            alt="password generator web app snapshot"
+            class="img-fluid"
+          />
+        </div>
+        <div class="col text-descripiton">
+          <h2 class="mt-2">Password Generator</h2>
+          <p>
+            A password gerator that generates a password of 7 charcters
+            including numbers, letters, and characters to ensure digital safety
+            of gadgets!
+          </p>
+          <button type="submit" class="btn">
+            <a
+              rel="noopener"
+              href="https://lornzyy.github.io/password-generator/"
+              title="Learn More"
+              target="_blank"
+              >Learn More</a
+            >
+          </button>
+        </div>
+      </div>
+      <hr class="d-block d-md-none w-60 m-3" />
     </div>
 
     <footer class="text-secondary m-2">
       <a href="mailto:lornawmungai@gmail.com">
-        <p class="text-center text-secondary text-bold">
+        <p class="text-center text-secondary text-bold" id="year">
           lornawmungai@gmail.com
         </p>
       </a>
+
+      <script>
+        let date = new Date();
+        document.getElementById("year").innerHTML += `<br/> © ${date.getFullYear()}`;
+      </script>
+
       <div class="socials d-flex justify-content-center">
         <a
           rel="noopener"

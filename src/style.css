@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 h1,
@@ -121,11 +122,11 @@ a {
 /* about page */
 
 .content-container {
-  padding: 50px 20px;
+  padding: 30px 18px;
 }
 
 .content {
-  margin-left: 30px;
+  margin: 20px;
 }
 
 .content-container h1,
@@ -243,6 +244,7 @@ footer .socials a:hover,
   color: #f9f7fe;
 }
 @media screen and (max-width: 576px) {
+
   .col p {
     text-align: center;
     line-height: 1.5;
@@ -283,6 +285,11 @@ footer .socials a:hover,
   .work-content {
     margin: 20px;
   }
+
+  .content-container {
+    overflow-x: hidden;
+  }
+
 
   .work-content img {
     height: 200px;
